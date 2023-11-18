@@ -1,0 +1,19 @@
+.socialButton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  p{
+    margin-left: 5px ;
+    color: blue;
+  }
+}
+
+.socialButtonSmall{
+  border-radius: 15px ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  p{
+    color: blue;
+  }
+}

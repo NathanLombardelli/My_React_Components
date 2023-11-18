@@ -1,21 +1,14 @@
-import {Title} from "../assets/Title.jsx";
-import {Link, Outlet} from "react-router-dom";
-
+import {Nav} from "../components/Nav.jsx";
+import {SocialButton} from "../components/socialButton/SocialButton.jsx";
+import { FaFacebookF } from "react-icons/fa6";
 export function Home() {
+
+
     return (
         <>
-            <Title text={'Home Page'}/>
-        <nav>
-            <ul>
-                <li>
-                    <Link to={'/home'}>Home</Link>
-                </li>
-                <li>
-                    <Link to={'/contact'}>Contact</Link>
-                </li>
-            </ul>
-        </nav>
-            <Outlet />
+            <Nav/>
+            <SocialButton text={'test'} small={true} height={50} width={50} bgColor={'linear-gradient(90deg, rgba(255,147,0,1) 0%, rgba(255,0,0,1) 37%, rgba(0,46,255,1) 100%)'} Icon={()=><FaFacebookF/>} />
+            <SocialButton text={'Facebook'} small={false} height={250} width={500} fontColor={'white'} bgColor={'linear-gradient(90deg, rgba(255,147,0,1) 0%, rgba(255,0,0,1) 37%, rgba(0,46,255,1) 100%)'} Icon={()=><FaFacebookF/>} />
         </>
     )
 }

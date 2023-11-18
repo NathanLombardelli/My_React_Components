@@ -1,5 +1,21 @@
-h1 {
-  color: red;
+.socialButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.socialButton p {
+  margin-left: 5px;
+  color: blue;
+}
+
+.socialButtonSmall {
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.socialButtonSmall p {
+  color: blue;
 }
 
 /*# sourceMappingURL=style.css.map */
