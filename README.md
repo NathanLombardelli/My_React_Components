@@ -1,8 +1,11 @@
-# React Template
+# My React Components
 
 ## Description
 
-Template pour la création de projets React (Vite,Scss,Router).
+Liste de React Components réutilisable 
+
+## Date
+18/11/2023 -> now
 
 ## Team
 
