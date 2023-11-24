@@ -6,10 +6,10 @@ export function Nav() {
         <nav>
             <ul>
                 <li>
-                    <Link to={'/home'}>Home</Link>
+                    <Link to={'/buttons'}>Buttons</Link>
                 </li>
                 <li>
-                    <Link to={'/contact'}>Contact</Link>
+                    <Link to={'/Inputs'}>Inputs</Link>
                 </li>
             </ul>
         </nav>

@@ -1,6 +1,6 @@
 import {Nav} from "../components/Nav.jsx";
 
-export function Contact() {
+export function Inputs() {
     return (
         <>
             <Nav/>

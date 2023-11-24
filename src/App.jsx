@@ -1,16 +1,16 @@
 import './style.css'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import {Home} from "./pages/Home.jsx";
-import {Contact} from "./pages/Contact.jsx";
+import {Buttons} from "./pages/Buttons.jsx";
+import {Inputs} from "./pages/Inputs.jsx";
 function App() {
 
   return (
 
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home/>}></Route>
-        <Route path="/home" element={<Home/>}></Route>
-        <Route path="/contact" element={<Contact/>}></Route>
+        <Route path="/" element={<Buttons/>}></Route>
+        <Route path="/buttons" element={<Buttons/>}></Route>
+        <Route path="/inputs" element={<Inputs/>}></Route>
       </Routes>
     </BrowserRouter>
 
