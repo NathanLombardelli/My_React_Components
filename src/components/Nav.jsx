@@ -4,7 +4,7 @@ export function Nav() {
     return (
         <>
         <nav>
-            <ul>
+            <ul style={{display:"flex",width:'50%',justifyContent:'space-around',listStyle:'none'}} >
                 <li>
                     <Link to={'/buttons'}>Buttons</Link>
                 </li>
