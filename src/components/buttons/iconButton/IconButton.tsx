@@ -1,5 +1,5 @@
 import {JSX} from "react";
-import "./SocialButton.scss"
+import "./IconButton.scss"
 
 interface propsTypes {
     /** une fonction qui retourne une icone */
@@ -30,7 +30,7 @@ interface propsTypes {
     action : Function
 }
 
-export function SocialButton({Icon,text,bgColor,small,width,height,fontColor,action,round,pointer = true,borderColor,borderSize=0,hover}: propsTypes ) {
+export function IconButton({Icon,text,bgColor,small,width,height,fontColor,action,round,pointer = true,borderColor,borderSize=0,hover}: propsTypes ) {
 
     let customStyle = {
         background:bgColor,
